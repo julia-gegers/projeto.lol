@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 31, 37);
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.header{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(7, 9, 12);
+
+}
+
+
+
+.icon{
+    width: 220px;
+    height: 150px;
+    margin-left: -90px;
+}
+
+.link{
+    padding: 30px;
+    color: rgb(66, 193, 176);
+    margin-right: 20px;
+    font-family: 'Bebas Neue', cursive;
+    justify-content: flex-start;
+    justify-content: left;
+    font-size: 30px;
+}
+
+
+.link:hover{
+    color: beige;
+}
+
+.section1{
+    height: calc(100% - 150px);
+    position: relative;
+    padding: 60px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600px;
+    flex-direction: row;
+    border-top: 1px solid rgb(61, 68, 68);
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    
+}
+
+
+.extra{
+    position: absolute;
+    bottom: -400px;
+    right: -350px;
+    width: 850px;
+    height: 850px;
+    background-image: linear-gradient( rgb(204, 48, 131), rgb(26, 112, 225));
+    border-radius: 50%;
+}
+
+.jinx{
+    position: absolute;
+    right: 300px;
+    bottom: 320px;
+    width: 650px;
+    height: 650px;
+}
+
+.titulo{
+    font-size: 75px;
+    font-weight: 600px;
+    font-style: bold;
+    
+    
+}
+.conteudoprincipal{
+    align-items: center;
+    margin-right: 50%;
+    padding: 70px;
+    color: #cfa81c;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.botao{
+    background-color: #2be4c2;
+    font-family:'Bebas Neue', cursive;
+    height: 65px;
+    width: 600;
+    border: #101a18;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    color: rgb(4, 91, 114);
+    
+}
+
+.subtitulo{
+    color: #c5ad56;
+    font-size: 30px;
+}
+
